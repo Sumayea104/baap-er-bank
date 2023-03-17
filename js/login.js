@@ -19,10 +19,11 @@ const password = passwordField.value;
 // step-4 verify email and password
 
 if(email === 'shontan@baap.com' && password === 'secret'){
-    console.log('valid user')
+    // console.log('valid user')
+    window.location.href = 'bank.html'
 }
 else{
-    console.log('invalid user')
+    alert('khamosh !!!! toke ami tajjo shontan ghoshona korlam. tui password vule gechos!!! type-shontan@baap.com secret')
 }
 
 })
