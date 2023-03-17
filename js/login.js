@@ -7,8 +7,11 @@ document.getElementById('btn-submit').addEventListener('click',function(){
 //  always remember to use .value to get text from an input field
 const emailField = document.getElementById('user-email');
 const email = emailField.value;
-console.log(email);
+// console.log(email);
 
-
+// step 03 get the password address inside the email field
+const passwordField = document.getElementById('user-password');
+const password = passwordField.value;
+// console.log(password);
 })
 
