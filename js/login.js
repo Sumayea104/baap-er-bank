@@ -13,5 +13,17 @@ const email = emailField.value;
 const passwordField = document.getElementById('user-password');
 const password = passwordField.value;
 // console.log(password);
+
+// donot verify email password on the client side
+
+// step-4 verify email and password
+
+if(email === 'shontan@baap.com' && password === 'secret'){
+    console.log('valid user')
+}
+else{
+    console.log('invalid user')
+}
+
 })
 
